@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fruit Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" conaztent="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+   initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="burung.avif"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">TENTANG</a>
+          <a href="#varieties" class="nav-link">KECAP BANGO</a>
+          <a href="#our-service" class="nav-link">MANIS DAN GURIH</a>
+          <a href="#benefits" class="nav-link">MANFAAT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="kacang.jpg" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Manis, Gurih, dan Lezat.</h1>
+          <h2>
+           Terbuat dari kedelai hitam pilihan yang difermentasi sempurna.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+           Beli Sekarang
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">TENTANG KECAP BANGO</h3>
+        <div class="sec-content-div flexible">
+          <p>
+          Kecap Bango merek kecap manis legendaris asal indonesia yang dikenal karena konsistensinya dalam 
+          menggunakan bahan bahan alami berkualitas tinggi.sejak didirikan, mereka ini telah menjadi ikon cita rasa
+          nusantara yang mengedepankan tradisi dan keaslian RASA.
+          </p>
+          <img src="varian.jpeg" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIAN KECAP BANGO</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="cibu.jpg" alt="photo of amber apples" />
+            <h4>Sashet</h4>
+            <p>
+              Untuk penggunaan sekali masak stok rumah tangga kecil(misal: 60ml, 210ml) .
+            </p>
+            <center>
+                <p class="price"><b>Rp.1000</b></p>
+                <button class="buy-now-button">BUY NOW</button></center>
+          </div>
+          <div class="tile">
+            <img
+              src="botol.webp"
+              alt="photo of american trel apples"
+            />
+            <h4>Kemasan Botol:</h4>
+            <p>
+             Kemasan Botol tersedia dalam ukuran 135ml, 275ml, hingga Botol kaca besar.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="sejak.jpg" alt="photo of red delicious apple" />
+            <h4>Refil Jumbo:</h4>
+            <p>
+            Pilihan ekonomis umtuk keluarga atau usaha kuliner, seperti ukuran 550ml, 700gr, 950gr, hingga 1,5kg.
+            </p>
+          </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">LAYANAN KAMI</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa0H8fBj1vNmK7hzpVFRicm0SBf4334h_88qoOF7BDgA&s" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>MUDAH DIDAPAT</h5></h5>
+              <p>Mudah didapati karena tersedia di Alfamart, Indomaret, Warung terdekat, dan di Online.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://png.pngtree.com/png-vector/20190721/ourlarge/pngtree-fast-delivery-icon-for-your-project-png-image_1561663.jpg" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>KUALITAS TERJAMIN</h5>
+              <p>
+               Produk diawasi kualitasnya dari produksi sampai ke tangan konsumen.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://admin.gadgetcare.co.id/upload/icon/icon-garansi.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>LAYANAN KONSUMEN UNTUK KOMPLAIN</h5>
+              <p>
+                menyediakan bantuan untuk komplain, pertanyaan produk, dan informasi melalui costumer service Unilever Indoseia .
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">MANFAAT</h3>
+        <div class="sec-content-div flexible">
+          <iframe
+            id="video"
+            width="560"
+            title="Benefits of Apple"
+            height="315"
+            src="https://www.youtube.com/embed/VkUCHIdfMms"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">KONTAK</h3>
+        <div class="sec-content-div flexible">
+          <h6>Untuk melakukan pemesanan atau sekedar mengetahui lebih lanjut hubungi kami:</h6>
+          <form
+            id="form"
+            action="https://wa.me/6281310282937"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Alamat Email Kamu.."
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Tahu lebih" />
+          </form>
+        </div>
+        <div>
+          <center>
+            <a href="#" class="fa fa-facebook"></a>
+            </center>
+          </div>
+        </section>
+        </main>
+        <footer>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Kelompok 12</a>
+    </footer>
+  </body>
+</html>
